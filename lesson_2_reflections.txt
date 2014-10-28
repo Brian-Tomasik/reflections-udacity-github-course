@@ -5,3 +5,15 @@ What happens when you initialize a repository? Why do you need to do it?
 	folder. If I didn't initialize, git wouldn't know what folder should be
 	part of the repository I want to create.
 
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	- The working directory contains actual local files. The repository 
+	contains committed files. The staging area lets you toy around with adding
+	local files to a package that will later be added to the repository. Without
+	a staging area, we could only commit one file at a time, unless there was
+	some other command that allowed for committing multiple files at once. In
+	any case, the staging area is nice because it allows the user to add and
+	remove files from being part of a commit before "committing" (no pun
+	intended) to actually adding them.
+	
