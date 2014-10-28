@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	- When I initialize a repository, I create a hidden .git folder that sets
+	up configuration details. I need to initialize in order to create this
+	folder. If I didn't initialize, git wouldn't know what folder should be
+	part of the repository I want to create.
+
